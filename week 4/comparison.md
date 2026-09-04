@@ -1,0 +1,6 @@
+Part E - Compare Human and AI Versions
+
+
+The AI version is created by using the prompt to identify the limitations from Task 1, enhance Task 1, and improve it while keeping the requirement of a “simple beginner-friendly Python function that stores patient name, practitioner name and appointment time. Explicitly prohibit a database or GUI.”
+Comparing the human version and AI version, both versions of the code are easy to understand, and I can understand and explain both with the help of the tutor AI. Both versions only include the required features. For normal appointments, they both work well. For the assumptions, both versions assume that the patient’s name, practitioner name, and appointment time are strings. This may make it difficult to recognise appointment time conflicts, and incorrect time values may also be entered. For error handling, the human version uses ValueError to validate the patient’s name. The AI version uses == to check whether the patient’s name is empty.
+In my opinion, the AI version keeps improving its code based on the prompt. From this, we can know that AI should help humans to make their work better and will not replace humans in software programming. Humans also need to review the AI-written code, make the final decision, and take responsibility for it.
